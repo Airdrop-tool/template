@@ -1,4 +1,4 @@
-package com.cuongpq.hamster.utils;
+package com.cuongpq.seed.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

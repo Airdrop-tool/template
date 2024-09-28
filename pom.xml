@@ -8,9 +8,9 @@
 		<version>3.3.4</version>
 	</parent>
 	<groupId>com.cuongpq</groupId>
-	<artifactId>hamster</artifactId>
-	<name>hamster</name>
-	<description>hamster</description>
+	<artifactId>seed</artifactId>
+	<name>seed</name>
+	<description>seed</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

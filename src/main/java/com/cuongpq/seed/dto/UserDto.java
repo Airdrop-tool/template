@@ -1,4 +1,4 @@
-package com.cuongpq.hamster.dto;
+package com.cuongpq.seed.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

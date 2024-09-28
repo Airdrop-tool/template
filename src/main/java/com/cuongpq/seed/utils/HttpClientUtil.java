@@ -1,4 +1,4 @@
-package com.cuongpq.hamster.utils;
+package com.cuongpq.seed.utils;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.http.Header;

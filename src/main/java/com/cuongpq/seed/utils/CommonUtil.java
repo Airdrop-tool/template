@@ -1,6 +1,6 @@
-package com.cuongpq.hamster.utils;
+package com.cuongpq.seed.utils;
 
-import com.cuongpq.hamster.dto.UserDto;
+import com.cuongpq.seed.dto.UserDto;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
