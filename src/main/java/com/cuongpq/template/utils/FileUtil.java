@@ -1,4 +1,4 @@
-package com.cuongpq.seed.utils;
+package com.cuongpq.template.utils;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.StringUtils;

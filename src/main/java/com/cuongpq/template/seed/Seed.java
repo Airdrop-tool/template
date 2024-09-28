@@ -1,8 +1,8 @@
-package com.cuongpq.seed.seed;
+package com.cuongpq.template.seed;
 
-import com.cuongpq.seed.utils.CommonUtil;
-import com.cuongpq.seed.utils.DateUtil;
-import com.cuongpq.seed.utils.HttpClientUtil;
+import com.cuongpq.template.utils.CommonUtil;
+import com.cuongpq.template.utils.DateUtil;
+import com.cuongpq.template.utils.HttpClientUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.json.JSONObject;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
@@ -16,8 +16,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-import static com.cuongpq.seed.utils.DateUtil.FORMAT_HOUR_MINUTE_DAY_MONTH_YEAR;
-import static com.cuongpq.seed.utils.FileUtil.readTokens;
+import static com.cuongpq.template.utils.DateUtil.FORMAT_HOUR_MINUTE_DAY_MONTH_YEAR;
+import static com.cuongpq.template.utils.FileUtil.readTokens;
 
 @Service
 @Slf4j

@@ -1,4 +1,4 @@
-package com.cuongpq.seed.utils;
+package com.cuongpq.template.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

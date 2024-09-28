@@ -1,4 +1,4 @@
-package com.cuongpq.seed.utils;
+package com.cuongpq.template.utils;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.http.Header;

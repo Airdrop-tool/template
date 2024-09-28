@@ -1,4 +1,4 @@
-package com.cuongpq.seed.dto;
+package com.cuongpq.template.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
