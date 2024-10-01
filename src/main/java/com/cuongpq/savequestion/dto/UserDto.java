@@ -1,4 +1,4 @@
-package com.cuongpq.template.dto;
+package com.cuongpq.savequestion.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

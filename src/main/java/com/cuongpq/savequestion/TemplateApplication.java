@@ -1,4 +1,4 @@
-package com.cuongpq.template;
+package com.cuongpq.savequestion;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
