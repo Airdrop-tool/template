@@ -6,9 +6,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class SeedApplication {
+public class TemplateApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SeedApplication.class, args);
+        SpringApplication.run(TemplateApplication.class, args);
     }
 }

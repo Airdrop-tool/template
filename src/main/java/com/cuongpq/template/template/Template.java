@@ -13,13 +13,13 @@ import static com.cuongpq.template.utils.FileUtil.readTokens;
 
 @Service
 @Slf4j
-public class Seed {
+public class Template {
 
     private static final String KEY = "";
 
     private final List<String> queryIds;
 
-    Seed() {
+    Template() {
         queryIds = readTokens(KEY);
     }
 
