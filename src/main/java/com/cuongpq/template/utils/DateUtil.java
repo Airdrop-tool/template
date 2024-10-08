@@ -1,4 +1,4 @@
-package com.cuongpq.savequestion.utils;
+package com.cuongpq.template.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

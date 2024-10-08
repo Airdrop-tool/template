@@ -1,6 +1,6 @@
-package com.cuongpq.savequestion.utils;
+package com.cuongpq.template.utils;
 
-import com.cuongpq.savequestion.dto.UserDto;
+import com.cuongpq.template.dto.UserDto;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
