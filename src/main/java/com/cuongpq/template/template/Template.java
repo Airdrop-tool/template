@@ -1,5 +1,6 @@
 package com.cuongpq.template.template;
 
+import com.cuongpq.template.utils.FileUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
@@ -8,8 +9,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;
-
-import static com.cuongpq.template.utils.FileUtil.readTokens;
 
 @Service
 @Slf4j
@@ -20,7 +19,7 @@ public class Template {
     private final List<String> queryIds;
 
     Template() {
-        queryIds = readTokens(KEY);
+        queryIds = FileUtil.readTokens(KEY);
     }
 
     private Map<String, String> getHeaders(String queryId) {
