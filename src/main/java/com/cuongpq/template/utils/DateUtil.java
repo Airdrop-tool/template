@@ -121,4 +121,11 @@ public class DateUtil {
         cal.add(Calendar.HOUR, hours);
         return cal.getTime();
     }
+
+    public static String toTime(long milliseconds) {
+        long s = milliseconds / 1000;
+        long m = s / 60;
+        long h = m / 60;
+        return String.format("%dh:%dm:%ds", h, m - (h * 60), s - (m * 60));
+    }
 }
